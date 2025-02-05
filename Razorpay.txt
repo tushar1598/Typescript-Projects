@@ -1,0 +1,8 @@
+https://dashboard.razorpay.com/app/dashboard
+https://dashboard.razorpay.com/app/payments
+https://dashboard.razorpay.com/app/settlements
+https://dashboard.razorpay.com/app/reports
+https://dashboard.razorpay.com/app/account-settings
+https://dashboard.razorpay.com/app/website-app-settings/api-keys
+https://dashboard.razorpay.com/app/business-settings/contact
+https://dashboard.razorpay.com/app/payments/pay_P2T8FKy6G1uukw?init_page=Payments

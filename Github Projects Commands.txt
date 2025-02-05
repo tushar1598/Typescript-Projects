@@ -1,0 +1,39 @@
+
+Run the following command to initialize a new package.json file:
+npm init -y
+
+
+Add the dependencies manually if you know which ones the project requires. For a standard React Vite project, you can install the following as a starting point:
+npm install react react-dom react-router-dom
+npm install react-bootstrap bootstrap
+npm install vite @vitejs/plugin-react
+
+
+Save the file and rerun:
+npm install
+
+
+Inspect the package.json File
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "serve": "vite preview"
+}
+
+
+Run the Development Server
+npm run dev
+
+
+
+**************************************************
+
+create vite.config.js:- 
+// put this
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  plugins: [react()],
+})
+

@@ -1,0 +1,144 @@
+"Difference between let,const, var
+What are promises
+What is setTimeout
+Javascript is case sensitive or not?
+Difference between synchronius vs asynchronous?
+
+
+What is output of
+let a = 10;
+let a = 20;
+console.log(a)
+
+let a = 10;
+var a = 20;
+console.log(a)
+
+var a = 10;
+Var a = 20;
+console.log(a)
+
+let a= 1
+let b = 'a'
+console.log(a+b)
+
+let a= 1
+let b = 'a'
+console.log(a-b)
+
+
+let a= 1
+console.log(a+true)
+
+
+console.log(""first"");
+
+setTimeout(()=> {
+  console.log(""second"");
+},0)
+
+setTimeout(()=> {
+  console.log(""four"");
+},1000);
+
+console.log(""three"");
+
+
+
+What are middlewares?
+How you are generating token using jwt?
+What is primary key in table?
+node js is synchronius or asynchronous?
+Can table have more primary keys?
+What are joins in sql?
+
+JS -
+1) ==, ===?
+2) Promises?
+3) Async Await
+4) CB
+5) MAP FILTER REDUCE
+6) CALL APPLY
+7) IS JS DYNAMICALLY OR STATIC TYPED LANG? REASON ALSO
+8) Pass by value and pass by reference
+9) how to check a var is an array or not?
+10) use of typeof operator?
+11) type of array?
+
+Node js
+1) What is node js
+2) event loop?
+3) Middleware?
+4) express js?
+
+DATABASE
+1) Sql vs nosql
+2) indexing in sql
+3) sharding in nosql
+4) horizontal and vertical scaling
+5)
+Remember this only x  = [ 1,2,[3,4,[5,6] ,[7,8],9]
+Convert it into normal array
+[ 1 2 3 4 5 6 7 8 9]x  = [ 1,2,[3,4,[5,6] ,[7,8],9]
+Convert it into normal array
+[ 1 2 3 4 5 6 7 8 9]
+
+a = { x :1} ; b = {z : 2} ;
+a == b? 
+Reason of the answer
+How we can make it true"
+
+1. Middleware chain, 2. what is the process of user data to store mongodb using middleware and jwt 
+3. Socket.io explain, 4 . Why used socket. Io, 5. Promise details explain 6. Hashing and encryption difference 7. Jwt process how to verify it, 8. How to implement jwt, 9. Process of hasing password using bcrypt 10. What is realtime, 11. How to use socket. Io in chat app 12. Why use socket.Io, for real time chat what is other technique instead of socket , 13. Forking 14.spawn , 15 . Thread pool 16. What technique used in thread pool, 17.cluster code implement 18. In node which used fork or cluster  19. Forking how to code implement 
+
+how to push element in array for each document of a collection.? how to remove a single element from every document of a collection.?  how you can make two servers run parallelly in node.js ? how you will generate token that never expires. ? Different Lifecyle component method (react)? if multiple asynchronous operation are nested inside one another, how it gonna be processed ? what is thread pool ? How do you run different threads in single runtime enviornment ? 
+Difference between display none and visibilty hidden
+
+Largest number in array,uniqueproduct in an array,mongodb query,show projects ,questions on projects like what is socket.io,restaurant api, error handling some basic javascript questions.
+
+1)About cron job 2)If two persons from two different systems from same login credentials login to system then how we will identify in backend that particular request is coming from which particular person 3)Microservice and monolithic architecture 4) lets say we have made an one api which takes some keys from headers and some keys from body payload and according to that it does some database operations so either I can make request to this api from frontend directly or else I can modify headers and body paylod in inspect tab and then make request so how I can identify in backend whether particular request comes through direct api call it came through manipulating headers and body payload
+
+About react ,hooks , redux about project file structure life cycle
+
+1.ES6 Additions 
+2.difference between arrow function and normal function 
+3.Promise.all and Promise.race
+4.call-apply-bind
+5.create a server with node 
+6.create a server with express
+7.create a custom event in node that automatically closes which we click CMD+C
+8.How do you limit the number of documents returned by a mongoDB Query 
+9.What is aggregation pipeline in mongodb
+10.What is a covered query in mongoDB 
+11.fork vs spawn 
+12. Write the code to manully control the child process
+
+Node.js
+• Node.js fundamentals
+1) ES6 standards
+2) Child process/ Worker process
+3) Event Emitters
+4) Middlewares
+   • JWT authentication
+
+React
+  • React lifecycle
+  • Classbase components
+  • Hooks
+  • Integration of Ajax request
+  • Component Hirerachy
+
+MongoDB
+
+  • MongoDB fundamentals
+  • Operators such as $ set, $ push, $ pull, $ unset
+  • Read, insert, update, delete
+  • Aggregation pipeline
+
+Good to have
+
+  • Redis
+  • Rabbitmq
+  • Web sockets
+  • Angular
+

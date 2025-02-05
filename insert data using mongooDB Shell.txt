@@ -1,0 +1,29 @@
+
+
+  1. first open mongoDb compass
+  2. open mongodb shell
+  3. insert your data as array:-
+
+     db.categories.insertMany([
+  {
+    _id: ObjectId(), // Automatically generate a unique ObjectId
+    name: "Appetizers",
+    description: "Delicious starters to begin your meal!",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBGbmWPJh1hxZ3Ay2DbOGtIkZyIESe6SbNxUu53u7wBxuzaDDTE4vQDt50810BtSHChrVY&s",
+  },
+  {
+    _id: ObjectId(), // Automatically generate a unique ObjectId
+    name: "Main Courses",
+    description: "Hearty and satisfying main dishes!",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBGbmWPJh1hxZ3Ay2DbOGtIkZyIESe6SbNxUu53u7wBxuzaDDTE4vQDt50810BtSHChrVY&s",
+  },
+  {
+    _id: ObjectId(), // Automatically generate a unique ObjectId
+    name: "Desserts",
+    description: "Sweet treats to end your meal!",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBGbmWPJh1hxZ3Ay2DbOGtIkZyIESe6SbNxUu53u7wBxuzaDDTE4vQDt50810BtSHChrVY&s",
+  },
+]);

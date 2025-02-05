@@ -1,0 +1,12 @@
+package-lock.json
+package.json
+vite.config.js
+eslint.config.js
+
+
+git rm --cached package-lock.json package.json vite.config.js eslint.config.js
+
+
+git add .gitignore
+git commit -m "Ignore config and lock files"
+git push origin main
